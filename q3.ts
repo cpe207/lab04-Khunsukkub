@@ -1,5 +1,7 @@
-function primeNumber(a) {
-  /* Your code here */
+function primeNumber(a :number) {
+  if (a === 2 || a === 3) return "Yes";
+  if (a%2 !== 0 && a%3 !== 0) return "Yes";
+  else return "No";
 }
 
 const d1 = 10;
