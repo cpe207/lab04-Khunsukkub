@@ -2,9 +2,9 @@ function typeChecker(a : any, b : any): string | number {
   if (typeof a === "number" && typeof b === "number") return a+b;
   if (typeof a === typeof b) return "I LOVE YOU";
   if ( typeof a != typeof b) return "NOT MATCHED";
-  
+
   return 0; 
-}
+} //รหัส นศ.: 660610743 ขุนศึกไท บัวไชโย
 
 //Test cases
 const a1 = "Jack";

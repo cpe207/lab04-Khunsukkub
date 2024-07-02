@@ -2,7 +2,7 @@ function primeNumber(a :number) {
   if (a === 2 || a === 3) return "Yes";
   if (a%2 !== 0 && a%3 !== 0) return "Yes";
   else return "No";
-}
+} //รหัส นศ.: 660610743 ขุนศึกไท บัวไชโย
 
 const d1 = 10;
 const d2 = 29;
